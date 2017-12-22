@@ -1,0 +1,25 @@
+{
+  "name": "matheus/ns-api",
+  "description": "Pacote que permite comunicação com as diversas apis disponibilizadas pela News System Tecnologia",
+  "require": {
+    "php": ">=5.6.25",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "filp/whoops": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "NS\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Matheus Fernandes",
+      "email": "tecnologia.matheus@gmail.com"
+    }
+  ]
+}
